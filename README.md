@@ -4,7 +4,7 @@ This Python script generates a traffic report using data from the Utah Departmen
 
 ## Features
 
-- **Traffic Report Generation:** Fetches real-time traffic information for Morgan Valley and surrounding regions, including:
+- **Traffic Report Generation:** Fetches real-time traffic information for surrounding regions, including:
   - Road conditions for key roadways of interest
   - Mountain pass visibility and conditions
   - Active traffic advisories
@@ -44,9 +44,6 @@ pip install requests google-cloud-texttospeech pydub mutagen
 
 1. Clone the repository to your local machine:
 
-git clone https://github.com/your-username/morgan-valley-radio-traffic-report.git  
-cd morgan-valley-radio-traffic-report
-
 2. Run the script to generate the traffic report and audio file:
 
 python3 traffic_report.py
@@ -55,7 +52,7 @@ This will generate an MP3 file (`traffic_update.mp3`) with the traffic report, w
 
 ## File Structure
 
-morgan-valley-radio-traffic-report/  
+radio-traffic-report/  
 ├── traffic_report.py         # Main Python script  
 ├── README.md                 # This README file  
 └── /etc/radio_weather_report/  # Folder for service account key and background music  
