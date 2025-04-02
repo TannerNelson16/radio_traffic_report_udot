@@ -2,6 +2,10 @@
 
 This Python script generates a traffic report using data from the Utah Department of Transportation (UDOT) API and converts the report into an audio file. The script provides road conditions, mountain pass visibility, advisories, and snowplow locations, with the audio report enhanced with background music.
 
+## Sample
+
+https://github.com/user-attachments/assets/bb5d332a-0eff-4599-ac0c-52b2df829afa
+
 ## Features
 
 - **Traffic Report Generation:** Fetches real-time traffic information for surrounding regions, including:
